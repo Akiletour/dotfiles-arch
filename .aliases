@@ -1,0 +1,5 @@
+alias w='cd ~/www'
+alias m='cd ~/mobile'
+
+alias ys='yarn start'
+alias rios='./node_modules/.bin/react-native run-ios --simulator="iPhone X"'
