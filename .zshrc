@@ -4,9 +4,8 @@ if command -v tmux>/dev/null; then
 else
 	echo "tmux not installed. Run ./deploy to configure dependencies"
 fi
-
 export EDITOR=vim
-
+export TERM="xterm-256color"
 # uncomment to profile prompt startup with zprof
 # zmodload zsh/zprof
 
@@ -134,3 +133,8 @@ export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 source ~/.aliases
+
+export NVM_DIR="$HOME/.nvm"
+  . "/usr/local/opt/nvm/nvm.sh"
+export PATH="/usr/local/opt/php@7.3/bin:$PATH"
+export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
