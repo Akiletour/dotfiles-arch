@@ -128,7 +128,7 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 # source ~/.bash_profile
 
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin:/Applications/MAMP/Library/bin" # Add RVM to PATH for scripting
 
 #[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

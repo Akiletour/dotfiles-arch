@@ -1,7 +1,8 @@
 alias w='cd ~/www'
 alias m='cd ~/mobile'
 alias mux='tmuxinator'
-
+alias sshl='vi ~/.ssh/config'
+alias rsa='pbcopy < ~/.ssh/id_rsa.pub; cat ~/.ssh/id_rsa.pub'
 alias php-run='php -S 0.0.0.0:8000'
 alias ys='yarn start'
 alias rios='./node_modules/.bin/react-native run-ios --simulator="iPhone X"'
