@@ -10,3 +10,6 @@ apps:
 
 dev-apps:
 	cat packages/dev.list | xargs -n1 brew install
+
+mas:
+	cat packages/mas.list | xargs -n1 mas install

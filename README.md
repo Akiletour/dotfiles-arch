@@ -14,3 +14,22 @@ git config --global core.excludesfile ~/.gitignore_global
 ```
 make install
 ```
+
+### Common Apps
+
+```
+make apps
+```
+
+### Common utils
+
+```
+make dev-apps
+```
+```
+
+### Mac App Store
+
+```
+make mas
+```
