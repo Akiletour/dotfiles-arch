@@ -1,6 +1,6 @@
-.PHONY: install symlink apps
+.PHONY: install dev-apps symlink apps mas
 
-install: dev-apps apps symlink
+install: dev-apps apps symlink mas
 
 symlink:
 	./utils/symlink-setup.sh
