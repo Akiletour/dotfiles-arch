@@ -8,3 +8,9 @@ git config --global core.excludesfile ~/.gitignore_global
 
 1. Install ohmyzsh
 2. Install powerlevel10k
+
+## Installation
+
+```
+make install
+```
