@@ -26,7 +26,6 @@ make apps
 ```
 make dev-apps
 ```
-```
 
 ### Mac App Store
 
