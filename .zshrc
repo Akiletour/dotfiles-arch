@@ -15,6 +15,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
 export EDITOR=vim
 export TERM="xterm-256color"
