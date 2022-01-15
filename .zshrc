@@ -17,9 +17,9 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
 
-export EDITOR=vim
+export EDITOR=nvim
 export TERM="xterm-256color"
-
+export VISUAL=nvim
 # history
 SAVEHIST=100000
 
