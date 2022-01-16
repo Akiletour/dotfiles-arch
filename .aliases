@@ -19,6 +19,10 @@ alias php74='/opt/homebrew/opt/php@7.4/bin/php'
 alias php56='/opt/homebrew/opt/php@5.6/bin/php'
 alias php80='/opt/homebrew/opt/php@8.0/bin/php'
 
+## NVIM
+alias vi='nvim'
+alias vim='nvim'
+
 ## Symfony
 alias sf='symfony'
 alias cons='symfony console'
