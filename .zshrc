@@ -37,12 +37,12 @@ compinit
 
 
 ## Automatically list directory contents on `cd`.
-auto-ls () {
-	emulate -L zsh;
-	# explicit sexy ls'ing as aliases arent honored in here.
-	hash gls >/dev/null 2>&1 && CLICOLOR_FORCE=1 gls -alh --color --group-directories-first || colorls -lA --sd
-}
-chpwd_functions=( auto-ls $chpwd_functions )
+# auto-ls () {
+# 	emulate -L zsh;
+# 	# explicit sexy ls'ing as aliases arent honored in here.
+# 	hash gls >/dev/null 2>&1 && CLICOLOR_FORCE=1 gls -alh --color --group-directories-first || colorls -lA --sd
+# }
+# chpwd_functions=( auto-ls $chpwd_functions )
 
 
 ## Autoswitch node version if .nvmrc is present is the current directory
