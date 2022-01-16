@@ -40,7 +40,7 @@ compinit
 auto-ls () {
 	emulate -L zsh;
 	# explicit sexy ls'ing as aliases arent honored in here.
-	hash gls >/dev/null 2>&1 && CLICOLOR_FORCE=1 gls -alh --color --group-directories-first || ls -Alh
+	hash gls >/dev/null 2>&1 && CLICOLOR_FORCE=1 gls -alh --color --group-directories-first || colorls -lA --sd
 }
 chpwd_functions=( auto-ls $chpwd_functions )
 
@@ -67,3 +67,4 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+source $(dirname $(gem which colorls))/tab_complete.sh

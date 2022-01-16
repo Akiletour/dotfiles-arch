@@ -8,6 +8,11 @@ git config --global core.excludesfile ~/.gitignore_global
 
 1. Install ohmyzsh
 2. Install powerlevel10k
+3. install colorls
+
+```bash
+gem install colorls
+```
 
 ## Installation
 
