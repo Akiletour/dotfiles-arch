@@ -12,6 +12,7 @@ git config --global core.excludesfile ~/.gitignore_global
 
 ```bash
 gem install colorls
+brew install findutils
 ```
 
 ## Installation
