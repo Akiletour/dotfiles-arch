@@ -6,6 +6,8 @@ git config --global core.excludesfile ~/.gitignore_global
 
 ## Long press accent
 
+Just after this command, we have to reboot.
+
 ```bash
 defaults write -g ApplePressAndHoldEnabled -bool true
 ```
