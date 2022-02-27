@@ -1,7 +1,13 @@
 ## Global .gitignore
 
-```
+```bash
 git config --global core.excludesfile ~/.gitignore_global
+```
+
+## Long press accent
+
+```bash
+defaults write -g ApplePressAndHoldEnabled -bool true
 ```
 
 ## ZSH
@@ -17,24 +23,24 @@ brew install findutils
 
 ## Installation
 
-```
+```bash
 make install
 ```
 
 ### Common Apps
 
-```
+```bash
 make apps
 ```
 
 ### Common utils
 
-```
+```bash
 make dev-apps
 ```
 
 ### Mac App Store
 
-```
+```bash
 make mas
 ```
