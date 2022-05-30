@@ -3,6 +3,10 @@ phpv() {
   brew unlink php && brew link --overwrite --force php@$1
 }
 
+wps() {
+  /opt/homebrew/opt/php@$1/bin/php /usr/local/bin/wp server --host=0.0.0.0 --port=8000
+}
+
 port() {
   lsof -i :$1
 }
